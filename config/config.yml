@@ -1,0 +1,14 @@
+URL: http://dc.test.thinkerpark.cn/
+PATH: http://dc.test.thinkerpark.cn/kphone_web/dist/web/#
+
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+time:
+     year_table: 'div[@class="el-picker-panel el-date-picker"]/div[@class="el-picker-panel__body-wrapper"]/div/div[2]/table[@class="el-year-table"]/'
+     month-table: 'div[@class="el-picker-panel el-date-picker"]/div[@class="el-picker-panel__body-wrapper"]/div/div[2]/table[@class="el-month-table"]/'
+     date-table: 'div[@class="el-picker-panel el-date-picker"]/div[@class="el-picker-panel__body-wrapper"]/div/div[2]/table[@class="el-date-table"]/'
